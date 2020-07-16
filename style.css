@@ -221,34 +221,4 @@ footer {
     color: rgb(3, 3, 3);
 }
 
-@media only screen and (min-width:768px) {
-    .video1 {
-        width: 640px;
-        height: 360px;
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .nav-wrapper>.right-side>div {
-        font-size: 30px;
-        padding-right: 12px;
-    }
-    body {
-        margin: 10px 5px;
-    }
-    .breif-summary>h1 {
-        text-align: center;
-        font-size: 3em;
-    }
-    .breif-summary {
-        text-align: justify;
-        font-size: 20px;
-    }
-    .image1 {
-        display: block;
-        align-items: center;
-        width: 100%;
-    }
-}
-
 
