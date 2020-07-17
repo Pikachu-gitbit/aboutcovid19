@@ -362,4 +362,15 @@ footer {
         padding-right: 100px;
         width: 70%;
     }
+    .informative{
+        position: relative;
+        align-items: center;
+        display: block;
+        width: 90%;
+        left: 5%;
+        right:5%;
+        top:5px;
+        bottom: 10px;
+        
+    }
 }
