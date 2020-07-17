@@ -3,6 +3,7 @@ body {
     background-color: rgb(245, 235, 235);
     max-zoom: 500px;
     margin-bottom: 15px;
+    margin: 5px;
 }
 
 .nav-wrapper {
