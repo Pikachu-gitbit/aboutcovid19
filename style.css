@@ -1,8 +1,8 @@
 body {
-    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 250, 250);
     max-zoom: 500px;
-    margin:15px;
-
+    margin-bottom: 15px;
 }
 
 .nav-wrapper {
@@ -44,17 +44,17 @@ body {
 }
 
 .nav-wrapper-link a {
-    color: rgb(255, 0, 0);
+    color: rgb(51, 51, 51);
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .nav-wrapper-link :hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(167, 39, 0);
 }
 
 .nav-wrapper-link a:hover {
-    color: black;
+    color: rgb(255, 0, 0);
 }
 
 .dashboard-aage {
@@ -75,13 +75,13 @@ body {
 
 .image {
     height: 60px;
-    width: 15%;
+    width: 20%;
     position: absolute;
     top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: right;
-    padding-left: 250px;
+    padding-left: 220px;
     padding-top: 51px;
     padding-bottom: 100px
 }
@@ -90,18 +90,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 25px;
-    
-
 }
 
 .cured>.image {
-    padding-left: 250px;
+    padding-left: 220px;
 }
 
 .dashboard-aage {
     position: relative;
     font-size: 23px;
 }
+
 .dashboard-aage p {
     padding-left: 10%;
     height: auto;
@@ -114,17 +113,22 @@ body {
     background-color: aqua;
     border-top-left-radius: 15px;
     border-radius: 20px;
-    position: relative;left: 30px; top: 10px;
-
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 305px;
 }
+
 .activecases {
     border: 0.5px solid transparent;
     background-color: rgb(255, 102, 0);
     border-top-left-radius: 15px;
     border-radius: 20px;
     margin-left: 00px;
-    position: relative; right:0px;left: 60px;top: 10px;
-
+    position: relative;
+    left: 80px;
+    top: 10px;
+    width: 305px;
 }
 
 .totaldeaths {
@@ -132,8 +136,10 @@ body {
     background-color: red;
     border-top-left-radius: 15px;
     border-radius: 20px;
-    position: relative;left: 30px; top:10px
-
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 305px;
 }
 
 .cured {
@@ -142,7 +148,10 @@ body {
     border-top-left-radius: 15px;
     border-radius: 20px;
     align-items: right;
-    position: relative;left: 30px; top: 10px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 305px;
 }
 
 .deathrate {
@@ -150,8 +159,11 @@ body {
     background-color: #FFFF00;
     border-top-left-radius: 15px;
     border-radius: 20px;
-    position: relative; right:0px;left: 60px;top: 10px;
-
+    position: relative;
+    right: 0px;
+    left: 80px;
+    top: 10px;
+    width: 305px;
 }
 
 .recoveryrate {
@@ -159,13 +171,19 @@ body {
     background-color: rgb(30, 255, 0);
     border-top-left-radius: 15px;
     border-radius: 20px;
-    position: relative; right:0px;left: 60px;top: 10px;
+    position: relative;
+    right: 0px;
+    left: 80px;
+    top: 10px;
+    width: 305px;
 }
-.informative{
+
+.informative {
     width: 100%;
     height: 500px;
     display: none;
 }
+
 .breif-summary>h1 {
     text-transform: uppercase;
     font-weight: 30px;
@@ -192,8 +210,6 @@ body {
     height: 500px;
     background-size: cover;
 }
-
-
 
 .video2 {
     width: 100%;
@@ -227,4 +243,122 @@ footer {
     color: rgb(3, 3, 3);
 }
 
+@media only screen and (min-width:768px) {
+    .video1 {
+        width: 640px;
+        height: 360px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .nav-wrapper>.right-side>div {
+        font-size: 30px;
+        padding-right: 12px;
+    }
+    body {
+        margin: 11px 5px;
+    }
+    .breif-summary>h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+    .breif-summary>p {
+        text-align: justify;
+        font-size: 30px;
+    }
+    .helpline {
+        position: relative;
+        text-align: center;
+        font-size: 40px
+    }
+    .image1 {
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+}
 
+@media only screen and (min-width:1100px) {
+    .dashboard-aage {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%;
+        right: 10%;
+        left: 10%;
+    }
+    .totalcase {
+        border: 0.5px solid transparent;
+        background-color: aqua;
+        border-top-left-radius: 15px;
+        border-radius: 20px;
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+    .activecases {
+        border: 0.5px solid transparent;
+        background-color: rgb(255, 102, 0);
+        border-top-left-radius: 15px;
+        border-radius: 20px;
+        margin-left: 00px;
+        position: relative;
+        left: 20px;
+        right: 20px;
+        top: 10px;
+    }
+    .totaldeaths {
+        border: 0.05px solid transparent;
+        background-color: red;
+        border-top-left-radius: 15px;
+        border-radius: 20px;
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+    .cured {
+        border: 0.5px solid transparent;
+        background-color: rgb(183, 0, 255);
+        border-top-left-radius: 15px;
+        border-radius: 20px;
+        align-items: right;
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+    .deathrate {
+        border: 0.5px solid transparent;
+        background-color: #FFFF00;
+        border-top-left-radius: 15px;
+        border-radius: 20px;
+        position: relative;
+        left: 20px;
+        right: 20px;
+        top: 10px;
+    }
+    .recoveryrate {
+        border: 0.5px solid transparent;
+        background-color: rgb(30, 255, 0);
+        border-top-left-radius: 15px;
+        border-radius: 20px;
+        position: relative;
+        left: 20px;
+        right: 20px;
+        top: 10px;
+    }
+    .image1 {
+        left: 15%;
+        right: 15%;
+        width: 70%;
+        position: relative;
+        align-items: center;
+    }
+    .breif-summary>p {
+        left: 15%;
+        right: 15%;
+        position: relative;
+        text-align: justify;
+        padding-left: 0px;
+        padding-right: 100px;
+        width: 70%;
+    }
+}
