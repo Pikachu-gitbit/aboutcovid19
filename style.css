@@ -21,14 +21,6 @@ body {
 }
 
 .update {
-    text-transform: capitalize;
-    position: relative;
-    bottom: 100px;
-    left: 5px;
-    font-size: 18px;
-    color: rgb(114, 114, 114);
-    right: 50px;
-    display:flex;
 }
 
 .left-side {
