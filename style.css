@@ -19,8 +19,15 @@ body {
     height: 100px;
     border-radius: 80px
 }
-.update{
-    text-transform: capitalize;position: relative;bottom: 100px;left:5px;font-size: 18px;color: rgb(114, 114, 114);right:50px
+
+.update {
+    text-transform: capitalize;
+    position: relative;
+    bottom: 100px;
+    left: 5px;
+    font-size: 18px;
+    color: rgb(114, 114, 114);
+    right: 50px
 }
 
 .left-side {
@@ -92,27 +99,28 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.dashboard-aage > div {
+
+.dashboard-aage>div {
     color: white;
 }
 
-
 .dashboard-aage {
-    position: relative;             
+    position: relative;
 }
-.number{
+
+.number {
     position: relative;
     font-size: 50px;
     bottom: 20px;
     left: 20px;
 }
-.text{
+
+.text {
     position: relative;
     left: 20px;
     font-size: 12px;
     bottom: 40px;
 }
-
 
 .totalcase {
     border: 0.5px solid transparent;
@@ -171,6 +179,7 @@ body {
     top: 10px;
     width: 305px;
 }
+
 .recoveryrate {
     border: 0.5px solid transparent;
     background-color: rgb(22, 175, 22);
@@ -243,7 +252,8 @@ footer {
 .helpline:hover {
     border-bottom: 1px solid rgb(0, 0, 0);
 }
-.text{
+
+.text {
     font-size: 25px;
 }
 
@@ -287,7 +297,6 @@ footer {
 }
 
 @media only screen and (min-width:1100px) {
-    
     .dashboard-aage {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -365,19 +374,17 @@ footer {
         padding-right: 100px;
         width: 70%;
     }
-    .informative{
+    .informative {
         position: relative;
         align-items: center;
         display: block;
         width: 90%;
         left: 5%;
-        right:5%;
-        top:5px;
+        right: 5%;
+        top: 5px;
         bottom: 10px;
-        
     }
-    .update{
-        left:60%;
-
+    .update {
+        left: 60%;
     }
 }
