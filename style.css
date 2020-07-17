@@ -202,8 +202,10 @@ body {
 }
 
 .breif-summary>p {
-    width: 100%;
+    width: 98%;
     text-align: justify;
+    left: 1%;
+    right: 1%;
 }
 
 .maincontent>.breif-summary>iframe {
