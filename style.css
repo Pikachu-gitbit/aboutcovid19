@@ -21,8 +21,7 @@ body {
     border-radius: 80px
 }
 
-.update {
-}
+.update {}
 
 .left-side {
     text-transform: capitalize;
@@ -382,5 +381,12 @@ footer {
     }
     .update {
         left: 60%;
+    }
+    .video1 {
+        width: 70%;
+        height: 550px;
+        padding-bottom: 20px;
+        left: 15%;
+        right: 15%;
     }
 }
