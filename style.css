@@ -195,16 +195,11 @@ header{
     height: 500px;
     display: none;
 }
-.image1 > iframe{
-    padding-top: 20px;
-    padding-right:15px;
-    height: 1000px;
-    width: 98%;
-}
 .videoo{
     width: 100%;
-    height: 800px;
-    padding: 10px;
+    height: 1000px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;              
 }
 .breif-summary>h1 {
@@ -214,9 +209,6 @@ header{
 
 .breif-summary>h1 {
     text-align: center;
-}
-.image1{
-    padding: 10px;
 }
 
 .breif-summary>p {
