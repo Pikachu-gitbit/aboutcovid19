@@ -195,7 +195,12 @@ header{
     height: 500px;
     display: none;
 }
-
+.image1 > iframe{
+    padding-top: 20px;
+    padding-right:15px;
+    height: 1000px;
+    width: 98%;
+}
 .breif-summary>h1 {
     text-transform: uppercase;
     font-weight: 30px;
